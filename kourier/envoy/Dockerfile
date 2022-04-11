@@ -1,1 +1,1 @@
-from docker.io/envoyproxy/envoy:v1.18-latest
+from docker.io/envoyproxy/envoy:v1.17-latest
