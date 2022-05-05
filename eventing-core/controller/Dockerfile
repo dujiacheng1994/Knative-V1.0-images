@@ -1,0 +1,1 @@
+from gcr.io/knative-releases/knative.dev/eventing/cmd/controller@sha256:18dbf114b36c5d00311598249fbfff98d35565220d97e8605d5c499dac457150
