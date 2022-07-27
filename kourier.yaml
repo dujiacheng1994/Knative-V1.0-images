@@ -368,7 +368,7 @@ spec:
             - --log-level info
           command:
             - /usr/local/bin/envoy
-          image: docker.io/envoyproxy/envoy:v1.17-latest
+          image: registry.cn-hangzhou.aliyuncs.com/my_knative/knative:envoy_v1.0
           name: kourier-gateway
           ports:
             - name: http2-external
