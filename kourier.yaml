@@ -270,7 +270,7 @@ spec:
         app: net-kourier-controller
     spec:
       containers:
-        - image: registry.cn-hangzhou.aliyuncs.com/yoonyul/knative_v1.0_images:net-kourier-controller_v1.0
+        - image: registry.cn-hangzhou.aliyuncs.com/my_knative/knative:net-kourier-controller_v1.0
           name: controller
           env:
             - name: CERTS_SECRET_NAMESPACE
